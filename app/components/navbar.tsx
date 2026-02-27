@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ brandName }) => {
       </div>
 
       {/* Navigation Links */}
-      <ul className="flex items-center gap-6 m-0 p-0 list-none">
+      <ul className="flex items-center gap-16 m-0 p-0 list-none">
         {navLinks.map((link, index) => (
           <li key={index}>
             <a
