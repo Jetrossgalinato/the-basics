@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
-import { projectData } from "./data/projectData";
+import { projectData } from "../../data/projectData";
 import Link from "next/link";
 
 export default function ProjectsPage() {
