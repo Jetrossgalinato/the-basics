@@ -31,13 +31,13 @@ export default function ProjectsPage() {
             key={project.id}
             className="relative mx-auto w-full max-w-sm pt-0 overflow-hidden"
           >
-            <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
+            <div className="absolute inset-0 z-30 aspect-video " />
             <Image
               src={project.imageSrc}
               alt={project.imageAlt}
               width={800}
               height={450}
-              className="relative z-20 aspect-video w-full object-cover brightness-60 grayscale dark:brightness-40"
+              className="relative z-20 aspect-video w-full object-cover grayscale dark:brightness-80"
             />
             <CardHeader>
               <CardAction>
