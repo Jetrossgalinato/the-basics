@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "@/app/components/navbar";
 import { TypographyH1, TypographyP } from "@/app/components/typography";
 import { Button } from "@/components/ui/button";
 import {
@@ -18,7 +17,6 @@ export default function CounterPage() {
 
   return (
     <div className="min-h-screen">
-      <Navbar brandName="Basics" />
       <div className="mt-30 flex flex-col items-center justify-center">
         <TypographyH1>Interactive Counter</TypographyH1>
         <TypographyP>
