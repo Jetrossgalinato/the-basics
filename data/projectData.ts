@@ -8,4 +8,13 @@ export const projectData = [
     badgeText: "Featured",
     link: "/projects/counter",
   },
+  {
+    id: 2,
+    title: "React Hooks",
+    description: "Practice to enhance skills on React Hooks",
+    imageSrc: "/images/counter.jpeg",
+    imageAlt: "React Hooks",
+    badgeText: "Featured",
+    link: "/projects/hooks",
+  },
 ];

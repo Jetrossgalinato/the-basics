@@ -1,4 +1,3 @@
-import Navbar from "../components/navbar";
 import { TypographyH1, TypographyP } from "../components/typography";
 import {
   Card,
@@ -17,7 +16,6 @@ import Link from "next/link";
 export default function ProjectsPage() {
   return (
     <div className="min-h-screen">
-      <Navbar brandName="Basics" />
       <div className="mt-30 flex flex-col items-center justify-center">
         <TypographyH1>These are your Projects</TypographyH1>
         <TypographyP>
